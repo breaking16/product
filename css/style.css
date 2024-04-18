@@ -13,6 +13,7 @@ body {
   font-weight: 400;
 }
 
+/***********************************/
 .container {
   max-width: 1144px;
   margin: 0 auto;
@@ -23,6 +24,11 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 78px;
+}
+
+.menu {
+  margin-left: auto;
 }
 
 .menu__list {
@@ -53,9 +59,15 @@ body {
   padding: 11px 23px;
   border: 1px solid rgb(188, 208, 229);
   border-radius: 4px;
-
+  text-decoration: none;
 }
 
 .user-nav__link+.user-nav__link {
   margin-left: 14px;
+  background-color: transparent;
+  border-radius: 4px;
+  background: rgb(255, 153, 0);
+  color: rgb(255, 255, 255);
 }
+
+/*******************************/
