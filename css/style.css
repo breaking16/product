@@ -10,15 +10,32 @@ a {
 
 body {
   font-family: "Poppins", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
+  color: rgb(84, 72, 55);
+  font-size: 16px;
+  line-height: 26px;
+}
+
+button {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: rgb(84, 72, 55);
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
 }
 
 /***********************************/
+.title {
+  color: rgb(47, 40, 30);
+}
+
 .container {
   max-width: 1144px;
   margin: 0 auto;
   padding: 0 10px;
 }
+
 
 .header__inner {
   display: flex;
@@ -71,3 +88,48 @@ body {
 }
 
 /*******************************/
+
+.top {
+  padding: 133px 0 80px;
+}
+
+.top__title {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 54px;
+  margin-bottom: 30px;
+  max-width: 518px;
+}
+
+.top__text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 45px;
+  max-width: 460px;
+}
+
+.top__btn {
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  background: rgb(255, 153, 0);
+  border-radius: 4px;
+  padding: 15px 41px;
+  margin-right: 30px;
+  border: none;
+}
+
+.top__link {
+  color: rgb(255, 153, 0);
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-decoration: underline;
+  padding-left: 25px;
+}
+
+.top__link::before {
+  content: "";
+
+}
