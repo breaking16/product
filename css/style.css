@@ -159,12 +159,46 @@ button {
   padding: 0 10px;
 }
 
+.tools__inner {
+  padding-bottom: 90px;
+  background-image: url(../images/tools-bg.svg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+}
+
 .tools__items {
   display: flex;
   justify-content: space-between;
-  padding-top: 8px;
+  padding: 8px 16px 0;
+  margin-bottom: 60px;
 }
 
 .tools__item {
   width: 240px;
+}
+
+.tools__item-img {
+  margin-bottom: 30px;
+}
+
+.tools__item-title {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 33px;
+  margin-bottom: 13px;
+}
+
+.tools__link {
+  border-radius: 4px;
+  background: rgb(255, 153, 0);
+  display: block;
+  padding: 15px 32px 14px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgb(255, 255, 255);
+  transition-duration: none;
+  width: 173px;
+  margin: 0 auto;
 }
