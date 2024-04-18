@@ -242,3 +242,23 @@ button {
 .direction__item-text {
   margin-bottom: 25px;
 }
+
+.direction__list {
+  list-style: none;
+}
+
+.direction__list-item {
+  margin-bottom: 30px;
+  padding-left: 65px;
+  position: relative;
+}
+
+.direction__list-item::before {
+  content: "";
+  position: absolute;
+  top: 9px;
+  left: 0;
+  height: 35px;
+  width: 35px;
+  background-image: url(../images/check.svg);
+}
