@@ -417,14 +417,66 @@ button {
   margin-bottom: 55px;
 }
 
-.slider {}
+.slider {
+  margin: 0 -20px;
+}
 
-.slider__item {}
+.slider__item {
+  padding: 0 20px;
+}
 
-.slider__item-img {}
+.slider__item-img {
+  width: 348px;
+  height: 185px;
+  object-fit: cover;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  margin-bottom: 25px;
+}
 
-.slider__item-info {}
+.slider__item-info {
+  margin-bottom: 12px;
+  line-height: 28px;
+}
 
-.slider__item-author {}
+.slider__item-author {
+  color: rgb(84, 72, 55);
+  text-decoration: none;
+  font-weight: 700;
 
-.slider__item-title {}
+}
+
+.slider__item-title {
+  text-decoration: none;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 700;
+  margin-bottom: 80px;
+  display: inline-block;
+  transition: all .5s;
+}
+
+.slider__item-title:hover {
+  color: rgb(255, 153, 0);
+}
+
+.slick-dots {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.slick-dots button {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: none;
+  font-size: 0;
+  padding: 0;
+  margin: 0 5px;
+  background-color: rgb(239, 239, 239);
+}
+
+.slick-dots .slick-active button {
+  background-color: rgb(255, 153, 0);
+}
