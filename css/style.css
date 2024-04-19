@@ -399,3 +399,32 @@ button {
   left: 30px;
   right: auto;
 }
+
+/**************************************/
+
+.blog {
+  padding: 30px 0 120px;
+}
+
+.blog__title {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 51px;
+  margin-bottom: 9px;
+}
+
+.blog__text {
+  margin-bottom: 55px;
+}
+
+.slider {}
+
+.slider__item {}
+
+.slider__item-img {}
+
+.slider__item-info {}
+
+.slider__item-author {}
+
+.slider__item-title {}
