@@ -334,8 +334,8 @@ button {
 }
 
 .team__item--5 {
-  bottom: 157px;
-  right: 364px;
+  bottom: 135px;
+  right: 300px;
 }
 
 .team__item-img {
@@ -451,7 +451,7 @@ button {
   font-size: 24px;
   line-height: 34px;
   font-weight: 700;
-  margin-bottom: 80px;
+  margin-bottom: 84px;
   display: inline-block;
   transition: all .5s;
 }
@@ -532,14 +532,14 @@ button {
 .footer__form-input::placeholder {
   color: rgb(188, 208, 229);
   font-size: 16px;
-  line-height: 28;
+  line-height: 28px;
 }
 
 .footer__form-btn {
   background-color: rgb(255, 153, 0);
   border-radius: 4px;
   color: rgb(255, 255, 255);
-  padding: 8px 15px;
+  padding: 8px 15px 7px;
   border: none;
 }
 
